@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  my-helloWorld-service:
+    container_name: container2
+    image: hello
+    ports:
+      - "9090:80"
